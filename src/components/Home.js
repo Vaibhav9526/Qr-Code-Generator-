@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <div className="home_container">
         <div className="home_image_container">
-          <img id="home_image" src={QrImage} alt="Home Image" />
+          <img id="home_image" src={QrImage} alt="Home" />
         </div>
         <div className="start">
           <Link to="/QrCode">
